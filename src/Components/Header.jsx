@@ -16,11 +16,22 @@ const Header = () => {
           <span className=' '> <i class="fa-solid fa-hashtag  text-[20px] "></i>  Tushal Shekh </span>
 
       </div>
-      <div id="h3"  className='border-[white] border h-[40px] col-span-5 ' >
+      <div id="h3"  className='border-[white] border h-[40px] col-span-5 text-[white] ' >
+
+
+        helolo
 
         
 
       </div>
+      <div id="h3"  className='border-[white] border h-[40px] col-span-5 text-[white] ' >
+
+
+helolo
+
+
+
+</div>
       <div id="h4"  className='border-[white] border h-[40px] col-span-3 ' ></div>
       
     </div>
