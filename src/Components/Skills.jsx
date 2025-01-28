@@ -13,7 +13,7 @@ import boot from '../assets/boot.png'
 
 const Skills = () => {
   return (
-    <div className='w-[90%] flex-wrap m-[auto]  flex justify-evenly items-center  h-[auto]  mt-[50px]  ' >
+    <div id='skills'  className='w-[90%] flex-wrap m-[auto]  flex justify-evenly items-center  h-[auto]  mt-[50px]  ' >
 
       <div id="t1" className='w-[13%] flex-col flex justify-center items-center   h-[200px] border  rounded-[10px]  text-[white] ' >
         <img src={js} alt="" className='w-[100px] rounded-[10px] ' />

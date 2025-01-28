@@ -33,6 +33,23 @@ body {
   animation-iteration-count: infinite;
 
 }
+body{
+  /* background-image: url(https://i.pinimg.com/originals/da/6e/97/da6e971eeae725c9e089b8145bd77531.gif); */
+  /* opacity: 0.5; */
+  background-blend-mode: overlay;
+  background-color: #000000e5;
+  /* background-image: url(https://cliply.co/wp-content/uploads/2019/06/401906190_ITS_COMPLICATED_400px.gif); */
+  background-image: url(https://media1.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=6c09b952bik5alm3o7x9jnjsw0wctj7jo64ya7hawx1o5vyq&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/* scroll-behavior: smooth; */
+#ab3q{
+  /* transition: 2s;
+  transition: 2s; */
+}
 
 #t1:hover {
   box-shadow: 0px 0px 5px 2px #6f4ef271;
@@ -115,10 +132,21 @@ body {
 
 }
 
+
+#rot{
+  transform: rotate(270deg);
+  /* border: 2px solid white; */
+  margin-top: 20%;
+  margin-right: -40%
+
+  
+}
+
 #trii {
+  /* border: 2px solid white; */
 
 
-  --r: 10px;
+  --r: 20px;
   aspect-ratio: 1/cos(30deg);
   --_g: calc(tan(60deg)*var(--r)) bottom var(--r), #000 98%, #0000 101%;
   -webkit-mask: conic-gradient(from -30deg at 50% calc(200% - 3*var(--r)/2), #000 60deg, #0000 0) 0 100%/100% calc(100% - 3*var(--r)/2) no-repeat,
@@ -131,11 +159,11 @@ body {
   background-color: #6E4EF2;
   border-radius: 20px;
 
-  /* transform: rotate(90deg); */
+  transform: rotate(90deg);
    
   background-position: center;
   background-size: cover;
-  background-image: url(assets/TS.png);
+  /* background-image: url(assets/TS.png); */
 
 
 
@@ -155,73 +183,20 @@ body {
 
 }
 
+#qqq{
+  /* background-image: url(); */
+  /* border: 2px solid red; */
+  background-image: url(assets/Jiooo.png);
+  background-blend-mode: overlay;
+  background-color: #0d11174f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
 
-#trii {
-  /* border-left: 2px solid orangered;
-  border-bottom: 2px solid red;
-  border-right: 2px solid red;
-  border-top: 2px solid blue; */
-  /* border: 1px solid #6E41B3;
-  border-top-left-radius: 10%;
-  border-bottom-right-radius: 100%;
-  border-bottom-left-radius: 10%;
-  border-top-right-radius: 100%; */
-
-
-  /* width: 300px;
-  height: 300px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid #3498db; */
-
-
-
-  /* width: 150px;
-  height: 150px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid #3498db;  */
-
-  /* width: 100px;
-  height: 100px;
-  border: 1px solid white;
-  border-top-left-radius: 10px;
-  background-color: red;
-  transform: rotate(90deg);
-  clip-path: polygon(0 0, 50% 100%, 100% 0);   */
-  /* width: 50%;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid #3498db;
-
-  width: 0;
-  height: 0;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background-color: #3498db; */
-
-  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  height: 250px;
-  transform: rotate(90deg);
-  width: 300px;
-  margin-top: 10%;
-  background-color: aliceblue;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px; 
-  border-radius: 20px; */
-  /* 
-  width: 100px;
-  height: 100px;
-  background-color: #3498db;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  border-radius: 15px;  */
-
-  /* width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid #3498db;
-  border-radius: 20px; */
 }
+
+#qqq:hover{
+  background-color: #0d111700;
+}
+
