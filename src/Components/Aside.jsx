@@ -10,7 +10,7 @@ const Aside = () => {
   return (
     <div>
       
-<div id="ab3q"  className='  hidden w-[20%] pb-[10%] z-50   ps-[1%] fixed top-0  bg-[#272730]  h-[100%] text-[white]  px-[1%] pt-[3%] ' >
+<div id="ab3q"  className='  hidden w-[60%] sm:w-[50%] xl:w-[20%] pb-[10%] z-50   ps-[1%] fixed top-0  bg-[#111827]  h-[100%] text-[white]  px-[1%] pt-[3%] ' >
     <div className='relative' >
 
 <i class="fa-solid fa-xmark text-[#6E4EF2]  absolute right-0 top-[-20px] text-[24px] cursor-pointer  "  onClick={closeToggle}  ></i>
@@ -92,9 +92,6 @@ const Aside = () => {
       {/* <button   className='col-span-4  rounded-[6px] text-[] bg-gradient-to-r from-sky-500 to-indigo-500  h-[30px] w-[100px]'> Hire Me ! </button> */}
 
       </div>
-
-
-
         </div>
         
        

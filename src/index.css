@@ -14,11 +14,20 @@
   left: 0;
   z-index: 0;
 }
+#tushal024{
+  transform: rotate(270deg);
+}
 
 /* Default Styling */
 body {
   font-family: 'Merienda', cursive;
   background: #000;
+}
+#btd:hover{
+  transform: scale(0.89);
+  transition: 0.3s;
+  /* border: 1px solid blue; */
+  box-shadow: 0px 1px 8px 1px rgb(133, 171, 228);
 }
 
 #ttx {
@@ -61,6 +70,7 @@ html {
 #gitt{
   /* border-color: #6f4ef271; */
   border-radius: 7px;
+  /* width: 100%; */
   border: 1px solid #6f4ef271;
 
 }
@@ -142,8 +152,70 @@ html {
   
 }
 
+
+
+#trii,.side,.side1{
+  --r: 20px;
+  aspect-ratio: 1/cos(30deg);
+  --_g: calc(tan(60deg)*var(--r)) bottom var(--r), #000 98%, #0000 101%;
+  -webkit-mask: conic-gradient(from -30deg at 50% calc(200% - 3*var(--r)/2), #000 60deg, #0000 0) 0 100%/100% calc(100% - 3*var(--r)/2) no-repeat,
+    radial-gradient(var(--r) at 50% calc(2*var(--r)), #000 98%, #0000 101%),
+    radial-gradient(var(--r) at left var(--_g)),
+    radial-gradient(var(--r) at right var(--_g));
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  transition: --r .6s;
+  cursor: pointer;
+  background-color: #6E4EF2;
+  border-radius: 20px;
+
+  transform: rotate(90deg);
+   
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.side{
+  background-color:  #6f4ef2d4;
+  width: 400px;
+ background-image:linear-gradient(hsla(252, 84%, 61%, 0.831),hsla(252, 86%, 63%, 0.532)), url("https://clipart-library.com/images_k/free-images-with-transparent-backgrounds/free-images-with-transparent-backgrounds-11.jpg");
+ background-position: center;
+
+}
+.side1{
+  background-color:  #6f4ef2d4;
+  width: 400px;
+ background-image:linear-gradient(hsla(252, 84%, 61%, 0.908),hsla(252, 86%, 63%, 0.897)), url("https://img.freepik.com/free-vector/wavy-effect-with-blue-tones_1035-6903.jpg");
+ background-position: center;
+
+ margin-left: 40px;
+
+}
+
+
+/* #trii1{
+  --r: 20px;
+  aspect-ratio: 1/cos(30deg);
+  --_g: calc(tan(60deg)*var(--r)) bottom var(--r), #000 98%, #0000 101%;
+  -webkit-mask: conic-gradient(from -30deg at 50% calc(200% - 3*var(--r)/2), #000 60deg, #0000 0) 0 100%/100% calc(100% - 3*var(--r)/2) no-repeat,
+    radial-gradient(var(--r) at 50% calc(2*var(--r)), #000 98%, #0000 101%),
+    radial-gradient(var(--r) at left var(--_g)),
+    radial-gradient(var(--r) at right var(--_g));
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  transition: --r .6s;
+  cursor: pointer;
+  background-color: #272730;
+  border-radius: 20px;
+
+  transform: rotate(90deg);
+   
+  background-position: center;
+  background-size: cover;
+
+}
+
 #trii {
-  /* border: 2px solid white; */
+
 
 
   --r: 20px;
@@ -163,25 +235,11 @@ html {
    
   background-position: center;
   background-size: cover;
-  /* background-image: url(assets/TS.png); */
+ 
 
 
 
-
-  /* clip-path: polygon(50% 0,100% 100%,0 100%);
-    transition: --r .6s;
-    cursor: pointer;
-   
-    background-color: #6E4EF2;
-    transform: rotate(90deg);
-   
-    background-position: center;
-    background-size: cover;
-     */
-
-
-
-}
+} */
 
 #qqq{
   /* background-image: url(); */

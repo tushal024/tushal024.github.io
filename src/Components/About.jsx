@@ -18,7 +18,12 @@ const About = () => {
    
     I'm  <span className='text-[#6E4EF2]' >  Tushal Shekh  </span>
       
-      , a Front-End Developer skilled in HTML, CSS, JavaScript, and React. I specialize in creating fast, responsive, and user-friendly web experiences. My focus is on writing clean, maintainable code and building seamless, interactive interfaces that work flawlessly across all devices. I'm passionate about continuous learning and always eager to take on new challenges to craft high-quality digital solutions.
+      , a Front-End Developer skilled in HTML, CSS, JavaScript, and React.
+       I specialize in creating fast, responsive, and user-friendly web experiences. 
+       My focus is on writing clean, maintainable code and building seamless, interactive 
+       interfaces that work flawlessly across all devices. I'm passionate about continuous
+        learning and always eager to take on new challenges to craft high-quality digital
+         solutions.
      </p>
         
     
