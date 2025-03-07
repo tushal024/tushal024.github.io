@@ -9,6 +9,7 @@ import Footer from '../Components/Footer'
 import Aside from '../Components/Aside'
 import Project from '../Components/Project'
 
+
 const Home = () => {
   return (
     

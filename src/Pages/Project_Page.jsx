@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import tt from "../assets/res1.png"
+// import jiomart from "src\assets\JIOMART_SS.png"
 
 const Project_Page = () => {
     let [state, setState] = useState([
@@ -10,7 +11,7 @@ const Project_Page = () => {
             title: "Web Tech ",
             img1: tt,
             gitlink: `https://github.com/suraniunnati/websites-webpages/tree/main/live_project_1`,
-            live: `https://chic-faun-626d72.netlify.app/`,
+            live: `https://musical-basbousa-c9eac3.netlify.app/`,
             type: "webpage"
         }, {
             title: "AI jumpx ",
@@ -67,11 +68,11 @@ const Project_Page = () => {
                 */}
             </div>
             <div className='xl:w-[60%] flex justify-around items-center m-auto  mt-[50px]'>
-            <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md' onClick={() => filterData("website")}>All</button>
-            <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md' onClick={() => filterData("website")}>Website</button>
-                <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md' onClick={() => filterData("outher")}>Admin Panel</button>
-                <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md ' onClick={() => filterData("webpage")}>Webpages</button>
-                <button className='bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] p-2 w-[120px] rounded-md' onClick={() => filterData("outher")}>Outher</button>
+                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("website")}>All</button>
+                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("website")}>Website</button>
+                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("outher")}>Admin Panel</button>
+                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md ' onClick={() => filterData("webpage")}>Webpages</button>
+                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("outher")}>Outher</button>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 w-[85%] m-auto my-10 border pt-[80px] h-[auto]  border-[white]'>
                 {filteredData.map((el) => {
