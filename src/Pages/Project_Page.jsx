@@ -22,7 +22,7 @@ const Project_Page = () => {
         }, {
             title: "AI jumpx ",
             img1: tt,
-            gitlink: `https://github.com/suraniunnati/websites-webpages/tree/main/live_project_1`,
+            gitlink: `https://github.com/su~  lasraniunnati/websites-webpages/tree/main/live_project_1`,
             live: `https://chic-faun-626d72.netlify.app/`,
             type: "website"
         }, {
