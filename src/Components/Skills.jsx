@@ -19,7 +19,7 @@ const Skills = () => {
         {/* <img src={js} alt="" className='w-[100px] rounded-[10px] ' /> */}
 
         <h3 className='mt-[20px] ' >
-          JavaScript
+          JavaScript - MASTERRRRRRRRRRRRRRRR
         </h3>
 
       </div>
