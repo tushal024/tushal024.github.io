@@ -58,7 +58,7 @@ const Header = () => {
      
       
 
-      <div id="h3"  className={`  flex md:flex border-[white] md:w-[30%] sm:h-[100%]  sm:pt-[1%] content-center   items-center justify-between  sm:w-[50%]  pb-[10px] sm:flex-row  flex-col w-[40%]  h-[auto]  text-[white]  `} >
+      <div id="h3"  className={`  flex md:flex border-[white] md:w-[30%] sm:h-[100%]  sm:pt-[1%] content-center   items-center justify-end  sm:w-[50%]  pb-[10px] sm:flex-row  flex-col w-[40%]  h-[auto]  text-[white]  `} >
 
       {/* <Link to={"/"}  className='' >  Home </Link> */}
       {/* <Link to={"#ab1w"} >  About </Link> */}
@@ -67,7 +67,7 @@ const Header = () => {
       {/* <a href="#skill1"> Skills </a> */}
       {/* <a href="#Project"> Project </a> */}
 
-      <Link to={"/Project_Page"} >  Project </Link>
+      <Link to={"/Project_Page"} className='text-[20px] hover:text-[#6E4EF2]  ' >  Projects </Link>
       {/* <a href="#contact"> Contact </a> */}
       {/* <a href="#skill1"> Skills </a> */}
       {/* <Link to={"#skill1"} >  Skills </Link> */}
