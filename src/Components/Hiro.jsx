@@ -50,7 +50,7 @@ function Hiro() {
 
         <p className="  text-[white] mb-5 text-[20px] md:text-[16px] xl:text-[20px] ">
        
-        Hey there! My name is Chirag and I'm Front-end web developer with expertise in creating responsive and user-friendly
+        Hey there! My name is Tushal and I'm Front-end web developer with expertise in creating responsive and user-friendly
                             interfaces. Skilled in modern web technologies and frameworks, with strong soft
                             skills in communication, problem-solving, and teamwork.
 

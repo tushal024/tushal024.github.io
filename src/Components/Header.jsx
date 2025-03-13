@@ -35,7 +35,7 @@ const Header = () => {
 
 <div  className='fixed w-[100%] top-0 z-20 ' id='oo' >
 
-    <div className='w-[100%]   sm:h-[60px] h-[auto] flex-col sm:flex-row   pb-[10px]  relative  flex
+    <div className='w-[100%]   sm:h-[70px] h-[auto] flex-col sm:flex-row   pb-[10px]  relative  flex
      justify-between items-center sm:pb-0  ps-[1%] pe-[1%]  bg-[#111827]  ' >
 
       <div id="h1"  className='border-[white] md:w-[10%] sm:h-[100%]  sm:hidden sm:static absolute left-1 top-1  md:flex  justify-center items-center  w-[10%]    h-[40px]  ' >     
@@ -51,7 +51,7 @@ const Header = () => {
 
           {/* <span className=' '> <i class="fa-solid fa-hashtag  text-[20px] "></i>  Tushal Shekh </span> */}
           <Link  to={"/"}  >
-          <img src={logo} alt="" className='w-[200px] h-[100%] '/>
+          <img src={logo} alt="" className='w-[270px] h-[100%] '/>
           </Link>
 
       </div>

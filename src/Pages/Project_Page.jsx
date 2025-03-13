@@ -316,15 +316,16 @@ const Project_Page = () => {
                 <li className='text-[#B7B7B7] text-sm'>Other Projects: Worked on interactive apps, responsive designs, and API integrations.</li>
                 */}
             </div>
-            <div className='xl:w-[60%] flex justify-around items-center m-auto  mt-[50px]'>
+            <div className='xl:w-[60%] xl:ms-[20%] grid  w-[100%] justify-items-center  gap-2 md:grid-cols-5  grid-cols-3 sm:grid-cols-4 sm:mt-[10px]  mt-[70px]'>
                 <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("all")}>All</button>
                 <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("website")}>Website</button>
                 <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("Adminpanel")}>Admin Panel</button>
                 <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md ' onClick={() => filterData("webpage")}>Webpages</button>
-                <button className=' text-[white]   bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("Other")}>Other</button>
+                <button className=' text-[white] sm:col-start-2 sm:mt-[10px] sm:col-span-2 md:col-start-auto   md:mt-[0px]  md:col-span-1  bg-gradient-to-r from-sky-500 to-indigo-500  p-2 w-[120px] rounded-md' onClick={() => filterData("Other")}>Other</button>
             </div>
-            <h1 className="text-[white] text-center mt-[10px]  text-[30px]" > Total {filteredData[0].type} Is  {filteredData.length}  </h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 w-[85%] m-auto my-0  pt-[80px] h-[auto]  border-[white]'>
+            <h1 className="text-[white] text-center mt-[10px]  text-[30px]" > Total <span className="text-[#6E4EF2]" >  {filteredData[0].type} </span> Is <span className="text-[#6E4EF2]" >
+                  {filteredData.length} </span> </h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 w-[85%] m-auto my-0  pt-[20px] h-[auto]  border-[white]'>
             
                 {filteredData.map((el) => {
                     console.log(el);

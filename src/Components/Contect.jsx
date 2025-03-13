@@ -1,8 +1,34 @@
 import React from 'react'
 
 const Contect = () => {
+
+
+    function form1(e){
+      e.preventDefault();
+    }
+
+    const altt = () => {
+      // Using SweetAlert2 after adding CDN link
+      window.Swal.fire({
+        title: 'Success!',
+        text: 'You clicked the button!',
+        icon: 'success',
+        // confirmButtonText: 'Cool'
+      });
+    };
+
+    // function altt(){
+    //   window. Swal.fire({
+    //     title: "Good job!",
+    //     text: "You clicked the button!",
+    //     icon: "success"
+    //   })
+     
+    // }
+
   return (
     <div className='flex flex-wrap w-[90%]     m-auto mt-[50px]'>
+     
 
       {/* Left Section: Contact Info */}
       <div id="ab3" className='w-full sm:w-[50%] md:w-[100%] md:ps-[10%] xl:w-[49%]     px-[5%] h-auto text-[white] py-[20px]'>
@@ -63,7 +89,7 @@ const Contect = () => {
         <span className='text-[#6E4EF2] font-[800] text-[30px]'>
           Leave a Message
         </span>
-        <form className='text-white'>
+        <form className='text-white' onSubmit={form1} >
 
           {/* Name & Email Fields */}
           <div id="ff" className='flex flex-wrap justify-between mt-[20px]'>
@@ -120,7 +146,7 @@ const Contect = () => {
             />
           </div>
           <div>
-            <button  className='rounded-[6px] text-[20px] mt-[20px] bg-gradient-to-r from-sky-500 to-indigo-500  h-[40px] w-[200px]' > Submit </button>
+            <button onClick={altt }  className='rounded-[6px] text-[20px] mt-[20px] bg-gradient-to-r from-sky-500 to-indigo-500  h-[40px] w-[200px]' > Submit </button>
           </div>
 
         </form>
